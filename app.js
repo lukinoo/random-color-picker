@@ -6,7 +6,7 @@ let tl = gsap.timeline({defaults: {duration: 1, ease: Back.easeOut.config(2)}});
 
 // gsap animation
 tl.paused(true);
-tl.to('.container', {clipPath: 'circle(100%)'})
+tl.to('.container', {clipPath: 'circle(100%)', duration: 2})
 
 const randomColor = () => {
     let symbols = '0123456789ABCDEF';
